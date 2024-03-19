@@ -1,0 +1,15 @@
+.Card-title:hover{
+  color: rgb(179, 7, 7);
+}
+
+.v1{
+box-Shadow : 0 3px 4px rgb(10, 10, 10);
+height: fit-content;
+
+}
+.v2{
+  box-Shadow: 0 3px 4px orange;
+  height: fit-content;
+}
+
+

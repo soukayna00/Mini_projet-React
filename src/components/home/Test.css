@@ -1,0 +1,86 @@
+:root{
+    --PrimaryColor: rgb(210, 8, 8);
+    --HoverColor: rgb(165, 22, 22);
+    --WhiteColor: hsl(0,0%, 100%);
+    --BlackColor: hsl(0,0%, 18%);
+    --textColor: hsl(240,1%, 48%);
+    --whiteColorDeam: hsl(0,0%, 93%);
+    --greyBg: hsl(0,0%, 96%);
+    --greyText: rgb(190,190, 190);
+    --inputColor: hsl(330,12%, 97%);
+}
+.card {
+    position: relative;
+    width: 300px;
+    height: 200px;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    display: flex;
+
+    overflow: hidden;
+    perspective: 1000px;
+    box-shadow: 0 0 0 5px #ffffff80;
+    transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+  }
+  .content{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 250px;
+  padding: 20px;
+  box-sizing: border-box;
+  background-color: rgba(0, 0, 0, 0.817);
+  transform: rotateX(-90deg);
+  transform-origin: bottom;
+  transition: all 0.6s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  }
+  .card:hover .content {
+    transform: rotateX(0deg);
+  }
+  
+  .card svg:hover{
+    scale: 0;
+  }
+  .content .icon{
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+    padding: .5rem;
+    font-size: 2.5rem;
+    
+  }
+   .btnl{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 40%;
+    width: 10rem;
+    height: 3rem;
+    background: var();
+    border: 1px solid var(--greyText);
+    
+    
+}
+.btnl a{
+    color: var(--BlackColor);
+}
+.btnl:hover{
+    width: 10.5rem;
+    height: 3.5rem;
+    border: none;
+    background: transparent;
+    font-size: large;
+    
+}
+.btnl a:hover{
+  text-decoration: none;
+ color:  rgba(190, 190, 190, 0.39);
+}
+
+ 

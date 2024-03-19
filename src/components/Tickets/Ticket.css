@@ -1,0 +1,89 @@
+.pictures-container {
+
+    display: flex;
+    background-image: url(../../../public/ticket-bg.jpg);
+    background-repeat: no-repeat;
+    background-attachment: local;
+    background-size: cover;
+    border-radius: 20px 20px 50px 50px;
+    -webkit-border-radius: 20px 20px 50px 50px;
+    -moz-border-radius: 20px 20px 50px 50px;
+    -ms-border-radius: 20px 20px 50px 50px;
+    -o-border-radius: 20px 20px 50px 50px;
+}
+
+h2 {
+    color: red;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+}
+
+.ticket-container {
+    background-color: rgb(57, 56, 56);
+    color: white;
+
+    border-radius: 19px;
+
+    border: 2px rgb(57, 56, 56);
+}
+
+.ticket-Details {
+    margin: 10px 50px 20px 20px;
+
+}
+
+.ticket-seat {
+    display: flex;
+    padding: 10px;
+}
+
+.ticket-seat>select {
+    background-color: gray;
+    color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.ticket-seat>p {
+    color: white;
+    margin: 10px;
+}
+.detail-payement>form>input[type='text'] {
+    color: white;
+    background-color: rgb(101, 100, 100);
+        padding: 10px;
+}
+.detail-payement form input::placeholder {
+    color: white;
+    background-color: rgb(101, 100, 100);
+   
+}
+
+
+.ticket-seat>input[type="button"]{
+    padding: 10px;
+    background-color: red;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    color: white;
+    margin: 10px;
+}
+
+
+.btn-pay{
+    padding: 10px;
+    background-color: red;
+    border-radius: 40px;
+    -webkit-border-radius: 40px;
+    -moz-border-radius: 40px;
+    -ms-border-radius: 40px;
+    -o-border-radius: 40px;
+    color: white;
+    margin: 10px;
+}

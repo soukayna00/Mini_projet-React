@@ -1,0 +1,64 @@
+.videoCard{
+    margin-top: 2rem;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.73),rgba(0, 0, 0, 0.609)),url(../Assets/back.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.videoCard .cardContent{
+    gap: 2rem;
+    padding: 2rem 1rem;
+}
+.videoCard .cardContent .cardText h2{
+    color: var(--WhiteColor);
+    font-weight: 600;
+    padding-bottom: 1rem;
+}
+.videoCard .cardContent .cardText p{
+    color: var(--WhiteColor);
+    opacity: .7;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+.videoCard .cardVideo{
+    border: 2px solid var(--WhiteColor);
+    height: 200px;
+    width: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.videoCard .cardVideo video{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    
+}
+@media screen and (min-width: 720px){
+    .videoCard .cardContent{
+        gap: 4rem;
+        padding: 4rem 3rem;
+        display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    padding: 4rem 3rem;
+    }
+    .videoCard .cardContent .cardText h2{
+        font-size: 2rem;
+        
+    }
+    .videoCard .cardContent .cardText p{
+       opacity: .7;
+       font-size: 15px;
+    }
+    .videoCard .cardContent{
+        grid-template-columns: repeat(2, 1fr) !important;
+    }
+    .videoCard .cardContent .cardText {
+        flex: 1;
+    }
+
+    .videoCard .cardContent .cardVideo {
+        flex: 1;
+    }
+}

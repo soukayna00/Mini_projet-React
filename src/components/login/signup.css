@@ -1,0 +1,192 @@
+
+.split-layout {
+  display: flex;
+  flex-direction: row-reverse;
+  height: 100vh;
+  background-color: transparent;
+  background-image: url("/public/boxing-bg.jpg");
+  background-size: cover;
+}
+
+.picture-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-size: cover;
+  background-position: center;
+  flex: 0 0 63%;
+  height: 100%;
+  background-color: transparent;
+}
+
+.form-container {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+  box-shadow: 30px 0 40px 30px #000000;
+  margin-bottom: 20px;
+}
+
+.background-image {
+  background-color: #000000;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.custom-card {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.custom-subheading {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: dimgray;
+}
+
+.custom-input {
+  width: 100%;
+  border-radius: 7px;
+  background-color: transparent;
+}
+#custom-input-email{
+  background-color: hsla(0,0%,100%,.25);
+  border-color: #838383;
+}
+#custom-input-email:focus{
+  box-shadow: rgba(247, 247, 247, 0.894) 0px 0px 0px 3px;
+  border:solid 1px black;
+}
+.custom-input:focus{
+  outline: none;
+}
+.blota:has(.custom-input:focus) {
+  box-shadow: rgba(247, 247, 247, 0.894)  0px 0px 0px 3px;
+  border:solid 1px black;
+}
+.blota{
+  border: solid 1px #9fa6b263;
+  border-radius: 5px;
+}
+.custom-button {
+  margin-top: 15px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.back-button {
+  position: fixed;
+  top: 5px;
+  left: 5px;
+  background: none;
+  border: none;
+  padding: 15px;
+  transition: color 0.5s ease;
+  color: #f7f7f7  ;
+  font-family: "Your Custom Font", sans-serif;
+  font-size: 16px;
+}
+
+#google-btn {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  color: #ff0000;
+  cursor: pointer;
+  transition: background-color 1s ease, color 1s ease, border 1s ease;
+}
+
+#google-btn:hover {
+  background-color: #f8f8f8;
+  color: #1d4ff4;
+  border: 1px solid #1d4ff4;
+}
+
+#google-btn:focus {
+  outline: none;
+}
+
+#google-btn #fa-google {
+  color: #dd4b39;
+}
+
+#google-btn #fa-google {
+  margin-right: 8px;
+}
+
+#signinl {
+  margin-top: 20px;
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  color: #007bff;
+  transition: color 0.3s ease;
+}
+
+#signinl:hover {
+  color: #b30000;
+}
+
+#signinl:hover {
+  text-decoration: underline;
+}
+
+.password-strength-bar {
+  width: 100%;
+  position: relative;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.password-strength-bar .progress-bar {
+  height: 10px;
+  border-radius: 5px;
+}
+
+.strength-text {
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+}
+
+.strength-text.weak {
+  color: #ff6961;
+}
+
+.strength-text.fair {
+  color: #ffcc5c;
+}
+
+.strength-text.strong {
+  color: #77dd77;
+}
+form{
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.explanation-text {
+  margin-top: 5px;
+  font-size: 14px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.blota {
+  display: flex;
+  border-color: #838383;
+  background-color: hsla(0,0%,100%,.25);;
+}

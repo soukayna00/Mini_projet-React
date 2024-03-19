@@ -1,0 +1,58 @@
+:root{
+    --PrimaryColor: rgb(210, 8, 8);
+    --HoverColor: rgb(165, 22, 22);
+    --WhiteColor: hsl(0,0%, 100%);
+    --BlackColor: hsl(0,0%, 18%);
+    --textColor: hsl(240,1%, 48%);
+    --whiteColorDeam: hsl(0,0%, 93%);
+    --greyBg: hsl(0,0%, 96%);
+    --greyText: rgb(190,190, 190);
+    --inputColor: hsl(330,12%, 97%);
+}
+.vid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin: 0 -10px; /* Add negative margin to create space between items */
+  }
+  
+  .cont {
+    box-sizing: border-box;
+    width: calc(33.33% - 20px); /* Adjust width based on your preference */
+    margin: 10px; /* Add margin for space between items */
+    text-align: center;
+  }
+  
+  /* Add your existing styles for .cont here */
+  
+  @media (max-width: 768px) {
+    .cont {
+      width: calc(50% - 20px); /* Adjust width for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cont {
+      width: 100%; /* Full width for screens smaller than 480px */
+    }
+  }
+  .imgg{
+    height: 200px;
+  }
+  .watch{
+    padding: .5rem 1rem;
+    margin-top: 1rem;
+    color: var(--PrimaryColors);
+    background-color: white;
+
+  }
+  .watch a{
+    text-decoration: none;
+    color: black;
+    
+  }
+  .watch:hover{
+    color: var(--PrimaryColor);
+    background-color: #f9f9f9;
+  }
+  

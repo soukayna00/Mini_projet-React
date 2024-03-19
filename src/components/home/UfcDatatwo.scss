@@ -1,0 +1,87 @@
+:root{
+    --PrimaryColor: rgb(210, 8, 8);
+    --HoverColor: rgb(165, 22, 22);
+    --WhiteColor: hsl(0,0%, 100%);
+    --BlackColor: hsl(0,0%, 18%);
+    --textColor: hsl(240,1%, 48%);
+    --whiteColorDeam: hsl(0,0%, 93%);
+    --greyBg: hsl(0,0%, 96%);
+    --greyText: rgb(190,190, 190);
+    --inputColor: hsl(330,12%, 97%);
+}
+.homem{
+    height: 90vh;
+    background: linear-gradient(rgba(33,33,33,0.522)
+    ,rgba(33,33,33,0.522)), url('../Assets/more.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
+    .seContainer{
+        .homeText{
+            text-align: center;
+            .subTitles{
+                color: var(--WhiteColor);
+                opacity: .9;
+                font-size: 20px;
+                font-weight: 600;
+                padding: 1rem 0;
+                max-width: 70%;
+                text-align: center;
+                margin: auto;
+            }
+            .title{
+                color: var(--WhiteColor);
+                font-size: 2rem;
+                font-weight: 700;
+                line-height: 2.5rem;
+            }
+            .subTitle{
+                color: var(--WhiteColor);
+                opacity: .9;
+                font-size: 17px;
+                font-weight: 500;
+                padding: 1rem 0;
+                max-width: 70%;
+                text-align: center;
+                margin: auto;
+            }
+            .btn{
+                padding: .6rem 1.5rem;
+                border-radius: 10px;
+                margin-top: 1rem;
+                color: var(--PrimaryColors);
+            
+            
+                
+                
+            }
+        }
+    }
+}
+.scraped-list {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* ou 'space-between' selon la préférence */
+}
+
+.scraped-item {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px;
+    width: 300px;
+    border-radius: 0.5rem;
+}
+.ufc{
+        .secondh1{
+            padding: 20px;
+            font-family:'Times New Roman', Times, serif;
+        }
+    
+}

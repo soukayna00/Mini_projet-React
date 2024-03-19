@@ -1,0 +1,120 @@
+:root {
+  --PrimaryColor: rgb(210, 8, 8);
+  --HoverColor: rgb(165, 22, 22);
+  --WhiteColor: hsl(0,0%, 100%);
+  --BlackColor: hsl(0,0%, 18%);
+  --textColor: hsl(240,1%, 48%);
+  --whiteColorDeam: hsl(0,0%, 93%);
+  --greyBg: hsl(0,0%, 96%);
+  --greyText: rgb(190,190, 190);
+  --inputColor: hsl(330,12%, 97%);
+}
+
+.home {
+  height: 95vh;
+  background: linear-gradient(rgba(33, 33, 33, 0.522), rgba(33, 33, 33, 0.522)), url("../Assets/altro.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  position: relative;
+}
+.home .seContainer .homeText {
+  text-align: center;
+}
+.home .seContainer .homeText .subTitles {
+  color: var(--WhiteColor);
+  opacity: 0.9;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 1rem 0;
+  max-width: 70%;
+  text-align: center;
+  margin: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.home .seContainer .homeText .title {
+  color: var(--WhiteColor);
+  font-size: 3rem;
+  line-height: 2.5rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+.home .seContainer .homeText .subTitle {
+  color: var(--WhiteColor);
+  opacity: 0.9;
+  font-size: 17px;
+  font-weight: 500;
+  padding: 1rem 0;
+  max-width: 70%;
+  text-align: center;
+  margin: auto;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+}
+.home .seContainer .homeText .btn {
+  padding: 0.6rem 1.5rem;
+  border-radius: 0px;
+  margin-top: 1rem;
+  color: var(--PrimaryColors);
+}
+.home .seContainer .homeText .btn:hover {
+  color: var(--PrimaryColor);
+  background-color: #f9f9f9;
+  padding: 0.8rem 1.7rem;
+}
+.home .seContainer .homeCard {
+  width: 90%;
+  border-radius: 8px;
+  padding: 2rem;
+  background: var(--WhiteColor);
+  position: absolute;
+  gap: 1rem;
+  justify-content: center;
+  bottom: -15%;
+  transform: translate(-50%);
+  left: 50%;
+  box-shadow: 0 2px 8px 4px rgba(178, 178, 178, 0.45);
+}
+.home .seContainer .homeCard .magic {
+  height: 20vh;
+  background: url("../Assets/nome.jpg");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin: -25px;
+}
+
+.horizontal-line {
+  width: 100%;
+  height: 1px;
+  background-color: rgba(109, 106, 106, 0.7529411765); /* Couleur de la ligne (noir dans cet exemple) */
+  margin: 10px 0; /* Ajustez la marge selon vos besoins */
+}
+
+.secTitle {
+  text-align: left;
+}
+
+.popular .seContainer .secHeader .secTitle {
+  text-align: left;
+  margin-top: 20px;
+}
+
+.digital-clock {
+  font-family: Arial, sans-serif;
+  background-color: #1f1f1f;
+  padding: 10px;
+  color: #f9f9f9;
+  display: inline-block;
+  border-radius: 5px;
+  position: absolute;
+  left: 45%;
+  top: -20%;
+}
+
+.digital-clock span {
+  position: relative;
+  margin: 0 5px;
+}/*# sourceMappingURL=home.css.map */

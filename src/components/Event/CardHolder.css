@@ -1,0 +1,50 @@
+.event-upcomming{
+    color: red;
+}
+.CardEvent-container{
+    display: flex;
+}
+.UP {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: black 1px;
+    background-color: black;
+    padding: 20px 30px;
+    text-align: center;
+    margin: 20px;
+    border-radius: 90px 360px  90px 360px ;
+    -webkit-border-radius: 90px 360px  90px 360px ;
+    -moz-border-radius: 90px 360px  90px 360px ;
+    -ms-border-radius: 90px 360px  90px 360px ;
+    -o-border-radius: 90px 360px  90px 360px ;
+}
+.past {
+    color: white;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border: black 1px;
+    background-color: black;
+    padding: 20px 45px;
+    margin: 20px;
+    border-radius: 360px 90px 360px 90px;
+    -webkit-border-radius: 360px 90px 360px 90px;
+    -moz-border-radius: 360px 90px 360px 90px;
+    -ms-border-radius: 360px 90px 360px 90px;
+    -o-border-radius: 360px 90px 360px 90px;
+}
+
+.UP:hover{
+    color: white;
+    background-color: red;
+    border: red 1px;
+}
+.past:hover{
+   color: white;
+   background-color: red;
+   border: c 1px;
+}
+
+.buttons{
+display: flex;
+justify-content: center;
+
+}

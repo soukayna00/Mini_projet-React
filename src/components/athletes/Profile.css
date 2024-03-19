@@ -1,0 +1,61 @@
+.con {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: black;
+   }
+   
+   .text {
+    flex: 1;
+    padding-top: 10%;
+    color: white;
+    margin: 30px;
+   }
+   
+   .image {
+    flex: 1;
+    padding: 10px;
+
+   }
+   .bare{
+    width: 10px;
+    height: 30px;
+   }
+   .image img {
+    width: 50%;
+    height: auto;
+    padding-top: 10%;
+   }
+   .text h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+   }
+   .state {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+  }
+  .st{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  }
+  .ath {
+    margin-bottom: 10px;
+    padding: 20px;
+    
+  }
+  
+  .ath img {
+    width: 70%;
+
+  }
+  .ath img:hover{
+    width: 80%;
+  }
+  
+  @media (min-width: 768px) {
+    .ath {
+      width: calc(33.3333% - 5px); /* Pour trois images par ligne avec un espace de 10px entre elles */
+    }
+  }

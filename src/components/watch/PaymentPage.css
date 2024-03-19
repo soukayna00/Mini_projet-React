@@ -1,0 +1,98 @@
+.subscription-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px #0000001a;
+  background-color: #f0f0f0;
+  height: fit-content;
+}
+
+.subscription-card .card-icon {
+  color: #dc3545;
+}
+
+.container-1 {
+  padding: 100px;
+}
+
+.subscription-card button {
+  background-color: #dc3545;
+  color: #fff;
+}
+
+.subscription-card h2 {
+  color: #333;
+  /* Dark text color for headings */
+}
+
+.subscription-card p {
+  color: #555;
+  /* Slightly darker text color */
+}
+
+.subscription-card ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+/* .subscription-card li {
+  margin-bottom: 8px;
+} */
+
+/* Styles for the Payment Card on the Left */
+.payment-card {
+  display: flex;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 20px;
+  margin: 20px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+  height: fit-content;
+  width: 80%;
+  /* Make the card take 50% of the page width */
+}
+
+.payment-card .card-icon {
+  color: #ff0000;
+  /* Debit card blue color */
+}
+
+.payment-card button {
+  background-color: #ff0000;
+  /* Debit card blue color for the "Pay Now" button */
+  color: #fff;
+}
+
+.payment-card form {
+  margin-top: 20px;
+}
+
+.payment-card label {
+  color: #333;
+}
+
+.payment-card input {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.payment-card input:focus {
+  outline: none;
+  border-color: #dc3545;
+  /* Focus color for input fields */
+}
+
+.payment-card .paynow {
+  margin-top: 10px;
+}
+
+.payment-card .mb-4 {
+  color: #000000;
+  /* Debit card blue color for the "Payment Details" title */
+}
