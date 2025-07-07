@@ -21,6 +21,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/Mini_projet-React" element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/Ranking" element={<Ranking />} />
         <Route path="/PaymentPage" element={<PaymentPage />} />
         <Route path="/Athletes" element={<Athletes />} />
