@@ -11,8 +11,8 @@
 }
 
 .home {
-  height: 95vh;
-  background: linear-gradient(rgba(33, 33, 33, 0.522), rgba(33, 33, 33, 0.522)), url("../Assets/altro.jpg");
+  height: 100vh;
+  background: url("../Assets/test2.png");
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;

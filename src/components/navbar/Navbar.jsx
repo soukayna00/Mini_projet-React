@@ -1,9 +1,9 @@
 import React ,{useState} from 'react'
 import "./navbar.css"
 import { Link } from 'react-router-dom';
-import { GiBoxingGlove } from "react-icons/gi";
 import { AiFillCloseCircle } from "react-icons/ai";
 import { TbGridDots } from "react-icons/tb";
+import {img} from "../Assets/nlogo.png"
 
 export default function Navbar() {
     const[active, setActive]=useState('navBar')
@@ -29,9 +29,8 @@ export default function Navbar() {
       <section className='navbarSection'>
         <div className={transparent}>
             <div className='logoDiv'>
-                <a href="#" className='logo'>
-                    <h2 className='flex'><GiBoxingGlove className='icon'/>Boxing</h2>
-                </a>
+               <img src={img} alt="" />
+                  
             </div>
             <div className={active}>
                 <ul className='navLists flex'>
