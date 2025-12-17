@@ -1,13 +1,16 @@
 :root {
-  --PrimaryColor: rgb(210, 8, 8);
-  --HoverColor: rgb(165, 22, 22);
+  --PrimaryColor: rgb(210, 89, 8);
+  --HoverColor: rgb(209, 223, 86);
   --WhiteColor: hsl(0, 0%, 100%);
-  --BlackColor: hsl(0, 0%, 18%);
-  --textColor: hsl(240, 1%, 48%);
+  --BlackColor: hsl(0, 13%, 18%);
+  --textColor: hsl(240, 5%, 16%);
   --whiteColorDeam: hsl(0, 0%, 93%);
   --greyBg: hsl(0, 0%, 96%);
   --greyText: rgb(190, 190, 190);
   --inputColor: hsl(330, 12%, 97%);
+  --bordercolor:#BA4100;
+  /* //#BA4100 */
+  /* 290F01 */
 }
 
 .navbarSection .header {
@@ -15,22 +18,31 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  background: black;
+  background-color: #290F01 ;
   width: 100%;
-  padding: 1rem;
+  height: 50px;
+   border-bottom : 2px solid var(--bordercolor);
+  /* margin-top: 1px; */
+  /* padding: 10px; */
   z-index: 1000;
 }
 .navbarSection .header .logoDiv .logo {
-  color: rgb(235, 26, 26);
-  font-weight: 500;
+  color: var(--bordercolor);
+  font-weight: bold;
   cursor: pointer;
   align-items: center;
   justify-content: center;
 }
 .navbarSection .header .logoDiv .logo .icon {
-  color: var(--PrimaryColor);
+  color: var(--bordercolor);
   font-size: 25px;
 }
+
+
+
+
+
+
 @media screen and (max-width: 768px) {
   .navbarSection .header .navBar {
     background: var(--greyBg);
@@ -52,12 +64,12 @@
     margin: auto;
   }
   .navbarSection .header .navBar .navLists .navItem {
-    padding: 1rem 0;
+    padding: 0.5rem ;
   }
   .navbarSection .header .navBar .navLists .navItem .navLink {
     color: var(--textColor);
     font-size: 0.9rem;
-    font-weight: 600;
+    font-weight: 300;
   }
   .navbarSection .header .navBar .navLists .navItem .navLink:hover {
     color: var(--PrimaryColor);
@@ -70,13 +82,16 @@
   }
   .navbarSection .header .navBar .navLists .headerBtns .btn a {
     font-weight: 600;
+  
   }
   .navbarSection .header .navBar .navLists .headerBtns .btn a:hover {
     color: var(--WhiteColor);
   }
   .navbarSection .header .navBar .navLists .headerBtns .loginBtn {
-    background: none;
-    border: 1px solid var(--PrimaryColor);
+    /* background: none; */
+    /* background-color: aqua; */
+    /* border: 1px solid var(--PrimaryColor); */
+    border-radius: 5px;
     color: var(--PrimaryColor);
   }
   .navbarSection .header .navBar .navLists .headerBtns .loginBtn a {
@@ -115,13 +130,19 @@
   margin-left: 0px;
 }
 
+
+
+
+
+
+
 @media screen and (min-width: 769px) {
   .navbarSection .toggleNavbar,
   .navbarSection .closeNavbar {
     display: none;
   }
   .navbarSection .header {
-    padding: 0.5rem 2rem;
+    padding: 2rem;
   }
   .navbarSection .header .navBar .navLists {
     display: flex;
@@ -131,29 +152,55 @@
   }
   .navbarSection .header .navBar .navLists .navItem .navLink {
     color: var(--WhiteColor);
-    padding: 0 0.45rem;
-    font-size: 0.9rem;
-    font-weight: 400;
+    padding: 0.45rem;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: fantasy;
+    font-weight: 200;
   }
   .navbarSection .header .navBar .navLists .navItem .navLink:hover {
     color: var(--PrimaryColor);
+    font-family: fantasy;
+     font-size: 20px;
+     
+
   }
   .navbarSection .header .navBar .navLists .btn {
     margin-left: 1rem;
   }
+
+  /* testtttt */
   .navbarSection .header .navBar .navLists .btn a {
     color: var(--WhiteColor);
-    font-weight: 500;
+    text-decoration: none;
+      font-family: fantasy;
+      border-radius: 1px;
+ 
+    /* background-color: #BA4100; */
+    /* font-weight: 500; */
   }
+
+
+
+
+
   .navbarSection .header .navBar .navLists .loginBtn {
-    background: none;
-    border: 1px solid var(--PrimaryColor);
+    background:  var(--bordercolor);
+    color: white;
+    font-size: 20px;
+    font-family: fantasy;
+    border-radius: 1px; 
+     /* margin: 2px; */
   }
   .navbarSection .header .navBar .navLists .loginBtn:hover {
-    background: var(--PrimaryColor);
+     background: white;  
+     color: var(--bordercolor);
+     border-radius: 1px; 
+  
   }
   .navbarSection .header .navBar .navLists .loginBtn:hover a {
-    color: var(--WhiteColor);
+    color: var(--bordercolor);
+    text-decoration: none;
   }
 }
 @media screen and (min-width: 960px) {
@@ -161,8 +208,3 @@
     padding: 0 0.7rem;
   }
 }
-@media screen and (min-width: 1024px) {
-  .header {
-    padding: 0.5rem 8.5rem !important;
-  }
-}/*# sourceMappingURL=navbar.css.map */

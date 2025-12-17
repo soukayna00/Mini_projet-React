@@ -3,7 +3,7 @@ import "./navbar.css"
 import { Link } from 'react-router-dom';
 import { AiFillCloseCircle } from "react-icons/ai";
 import { TbGridDots } from "react-icons/tb";
-import {img} from "../Assets/nlogo.png"
+// import {img} from "../Assets/nlogo.png"
 
 export default function Navbar() {
     const[active, setActive]=useState('navBar')
@@ -29,7 +29,7 @@ export default function Navbar() {
       <section className='navbarSection'>
         <div className={transparent}>
             <div className='logoDiv'>
-               <img src={img} alt="" />
+               {/* <img src={img} alt="" /> */}
                   
             </div>
             <div className={active}>
@@ -56,7 +56,7 @@ export default function Navbar() {
                         <button className='btn loginBtn'>
                             <Link to='/Login' className='navLink'>Login</Link>
                         </button>
-                        <button className='btn '>
+                        <button  className='btn '>
                             <Link to='/SignUp' className='navLink'>Sign Up</Link>
                         </button>
                     </div>

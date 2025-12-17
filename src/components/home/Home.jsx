@@ -49,9 +49,11 @@ export default function Home() {
           </div>
           <div className="homeCard grid">
             <div className='magic'>
+            
               <a href=""></a>
             </div>
             <div className="digital-clock">
+              
       <span>{hours}</span>:<span>{minutes}</span>:<span>{seconds}</span>
     </div>
           </div>

@@ -3,11 +3,15 @@
   --HoverColor: rgb(165, 22, 22);
   --WhiteColor: hsl(0,0%, 100%);
   --BlackColor: hsl(0,0%, 18%);
-  --textColor: hsl(240,1%, 48%);
+  --textColor: hsl(240, 2%, 25%);
   --whiteColorDeam: hsl(0,0%, 93%);
   --greyBg: hsl(0,0%, 96%);
   --greyText: rgb(190,190, 190);
   --inputColor: hsl(330,12%, 97%);
+    --bordercolor:rgb(255, 191, 0);
+     
+
+
 }
 
 .home {
@@ -19,7 +23,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  margin: auto;
+  /* padding-top: 100px; */
   position: relative;
 }
 .home .seContainer .homeText {
@@ -27,6 +31,7 @@
 }
 .home .seContainer .homeText .subTitles {
   color: var(--WhiteColor);
+  background-color: rgb(255, 251, 0);
   opacity: 0.9;
   font-size: 20px;
   font-weight: 600;
@@ -60,8 +65,8 @@
   color: var(--PrimaryColors);
 }
 .home .seContainer .homeText .btn:hover {
-  color: var(--PrimaryColor);
-  background-color: #f9f9f9;
+  /* color: yellow; */
+  background-color: var(--bordercolor);
   padding: 0.8rem 1.7rem;
 }
 .home .seContainer .homeCard {
@@ -83,6 +88,7 @@
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
+  
   margin: -25px;
 }
 
@@ -100,21 +106,37 @@
 .popular .seContainer .secHeader .secTitle {
   text-align: left;
   margin-top: 20px;
+  
 }
 
 .digital-clock {
   font-family: Arial, sans-serif;
-  background-color: #1f1f1f;
+  background-color: black;
   padding: 10px;
-  color: #f9f9f9;
+  color: red;
   display: inline-block;
+  font-family: fantasy;
+  font-size: 30px;
+  border: none;
+  /* border-radius: 5px; */
+  position: fixed;
+  text-align: center;
+  margin:2px;
   border-radius: 5px;
-  position: absolute;
-  left: 45%;
+  left:45%;
   top: -20%;
 }
 
-.digital-clock span {
+/* .digital-clock span {
   position: relative;
   margin: 0 5px;
-}/*# sourceMappingURL=home.css.map */
+} */
+ .textDiv{
+  padding: 100px;
+  /* background-image: url(); */
+  background-repeat: no-repeat;
+  background-size: cover;
+
+ }
+
+
